@@ -6,6 +6,8 @@ This Model Context Protocol (MCP) is designed for building .NET MAUI controls, o
 
 ![.NET MAUI Graphics MCP Server](images/maui-graphics-mcp.gif)
 
+You can see what's being created in real time, and also have access to all the generated code!
+
 Example AI Assistant Queries
 
 Try these queries:
