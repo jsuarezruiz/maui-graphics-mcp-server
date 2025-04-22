@@ -4,6 +4,8 @@
 
 This Model Context Protocol (MCP) is designed for building .NET MAUI controls, offering powerful utilities for drawing everything from basic shapes and text to intricate paths. By seamlessly combining these elements, developers can craft visually stunning UI components with precision and flexibility.
 
+![.NET MAUI Graphics MCP Server](images/maui-graphics-mcp.gif)
+
 Example AI Assistant Queries
 
 Try these queries:
