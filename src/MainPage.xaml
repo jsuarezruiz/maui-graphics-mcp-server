@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiGraphicsMcp.MainPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="TitleStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Margin" Value="12" />
+            </Style>
+            
+            <Style x:Key="ExportButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource Secondary}" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="HorizontalOptions" Value="End" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Margin" Value="12" />
+            </Style>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid
+        RowDefinitions="Auto, *">
+        <Grid
+            BackgroundColor="{StaticResource Primary}"
+            ColumnDefinitions=" Auto, *">
+            <Label 
+                Text=".NET MAUI Graphics MCP Server"
+                Style="{StaticResource TitleStyle}"/>
+            <Button 
+                Grid.Column="1"
+                Text="Export"
+                Style="{StaticResource ExportButtonStyle}"
+                Clicked="OnButtonClicked"/>
+        </Grid>
+        <GraphicsView 
+            Grid.Row="1"
+            x:Name="GraphicsView" />
+    </Grid>
+</ContentPage>
