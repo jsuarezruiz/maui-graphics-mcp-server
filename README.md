@@ -8,12 +8,18 @@ This Model Context Protocol (MCP) is designed for building .NET MAUI controls, o
 
 You can see what's being created in real time, and also have access to all the generated code!
 
-Example AI Assistant Queries
+### Example AI Assistant Queries
 
 Try these queries:
 
-* "Generate two visually distinct ToggleSwitch components representing the 'On' and 'Off' states for a mobile UI. The design should be clean, modern, and user-friendly."
-* "Create a dynamic bar chart with labeled axes, color-coded bars, and gridlines for easy readability.."
+* _"Generate two visually distinct ToggleSwitch components representing the 'On' and 'Off' states for a mobile UI. The design should be clean, modern, and user-friendly."_
+* _"Create a dynamic bar chart with labeled axes, color-coded bars, and gridlines for easy readability."_
+* _"Create a horizontal slider for adjusting volume, brightness, or other settings."_
+* _"Create a numeric input field with plus and minus buttons to increase or decrease values."_
+
+### Gallery
+
+<img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/chart.png" width="50%"></img> <img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/toggleswitch.png" width="50%"></img> <img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/numericupdown.png" width="50%"></img> <img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/slider.png" width="50%"></img>
 
 ### Contributing
 
