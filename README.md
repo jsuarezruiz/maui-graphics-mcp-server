@@ -8,6 +8,20 @@ This Model Context Protocol (MCP) is designed for building .NET MAUI controls, o
 
 You can see what's being created in real time, and also have access to all the generated code!
 
+### Tools
+
+* `maui_graphics_clear` – Clears the entire drawing canvas, resetting it to a blank state.
+* `maui_graphics_fill_circle` – Draws a solid filled circle at a specified location with a given radius.
+* `maui_graphics_draw_circle` – Draws the outline of a circle without filling the interior.
+* `maui_graphics_fill_rectangle` – Creates a solid filled rectangle at a defined position with width and height.
+* `maui_graphics_draw_rectangle` – Draws the border of a rectangle without filling the inside.
+* `maui_graphics_fill_rounded_rectangle` – Generates a rectangle with rounded corners and fills it with a solid color.
+* `maui_graphics_draw_rounded_rectangle` – Draws the outline of a rounded rectangle without filling.
+* `maui_graphics_draw_line` – Creates a straight line between two points.
+* `maui_graphics_fill_path` – Fills a custom path shape with solid color or gradient.
+* `maui_graphics_draw_path` – Draws the outline of a custom path shape.
+* `maui_graphics_draw_text` – Renders text onto the canvas at a given position.
+
 ### Example AI Assistant Queries
 
 Try these queries:
