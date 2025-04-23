@@ -19,7 +19,7 @@ Try these queries:
 
 ### Gallery
 
-<img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/chart.png" width="50%"></img> <img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/toggleswitch.png" width="50%"></img> <img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/numericupdown.png" width="50%"></img> <img src="https://raw.githubusercontent.com/jsuarezruiz/maui-graphics-mcp-server/refs/heads/main/images/slider.png" width="50%"></img>
+<img src="images/chart.png" width="40%"></img> <img src="images/toggleswitch.png" width="40%"></img> <img src="images/numericupdown.png" width="40%"></img> <img src="images/slider.png" width="40%"></img>
 
 ### Contributing
 
