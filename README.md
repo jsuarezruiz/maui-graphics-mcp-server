@@ -8,6 +8,30 @@ This Model Context Protocol (MCP) is designed for building .NET MAUI controls, o
 
 You can see what's being created in real time, and also have access to all the generated code!
 
+### Setup
+1. Clone this repository
+2. Navigate to the project directory
+3. Build the project: `dotnet build`
+4. Configure with VS Code or other client:
+
+```json
+"mcp-server-maui-graphics": {
+    "type": "stdio",
+    "command": "dotnet",
+    "args": [
+        "run",
+        "--project",
+        "/Users/jsuarezruiz/GitHub/maui-graphics-mcp-server/src/MauiGraphicsMcp.csproj"
+    ]
+}
+```
+
+### Testing
+
+The MCP Inspector is an interactive developer tool designed for testing and debugging MCP servers. Can start the inspector from our application folder using the nodejs command npx with the following command:
+
+`npx @modelcontextprotocol/inspector dotnet run`
+
 ### Tools
 
 * `maui_graphics_clear` – Clears the entire drawing canvas, resetting it to a blank state.
